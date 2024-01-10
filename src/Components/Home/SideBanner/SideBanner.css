@@ -25,18 +25,17 @@
     font-size: 1.8vw;
     text-decoration: none;
     cursor: pointer;
-    margin-bottom: 20px;
     display: block;
 }
 
 .index-link:hover{
-    font-size: 2.3vw;
+    font-size: 1.9vw;
     color: aqua;
 }
 
 .media{
     position: fixed;
-    margin-top: 7vw;
+    margin-top: 10vw;
     margin-left: 2.3vw;
     font-size: 1.8vw;
     cursor: pointer;
