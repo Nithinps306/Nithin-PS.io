@@ -1,14 +1,15 @@
 .main{
     margin-left: 20vw;
     margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-bottom: 30vw;
     background-image: url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-63977.jpg');
     background-size: cover;
     width: 50%;
     border: 6px solid white;
+    border-radius: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
     position: relative;
-    top: 5%;
+    top: 10vw;
     left: 10%; 
 }
 @media screen and (max-width: 50%) {
