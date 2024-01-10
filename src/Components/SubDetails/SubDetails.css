@@ -33,3 +33,9 @@
     margin-top: 10vw;
     animation: logoRotation 5s linear infinite;
 }
+
+@media screen and (max-width: 100px) {
+    .react-logo {
+        margin: 150px;
+}
+}

@@ -18,6 +18,7 @@
     color: white;
     padding-left: 2vw;
     padding-right: 5vw;
+    margin-right: 1vw;
     padding-top: 60px;
 }
 
@@ -44,16 +45,16 @@
 }
 
 .instagram:hover{
-    font-size: 25px;
+    font-size: 2vw;
     color: rgb(238, 108, 130);
 }
 
 .linkedin:hover{
-    font-size: 25px;
+    font-size: 2vw;
     color: rgb(9, 151, 207)
 }
 
 .facebook:hover{
-    font-size: 25px;
+    font-size: 2vw;
     color: rgb(40, 40, 230)
 }
