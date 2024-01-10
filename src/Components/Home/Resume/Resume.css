@@ -1,0 +1,34 @@
+.resume{
+    position: fixed;
+    top: 100px;
+    margin-left: 210px;
+    margin-right: 55px;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+
+.resume-get{
+    margin-top: 70px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.resume-get:hover{
+    font-size: 32px;
+    color: aqua;
+}
+
+@keyframes move {
+    from {
+      transform:translatey(-70%)
+    }
+    to {
+      transform: translatey(10%);
+    }
+  }
+
+.arrow{
+    animation: move 1s linear infinite;
+}

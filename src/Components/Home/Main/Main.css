@@ -1,0 +1,11 @@
+.main{
+    position: fixed;
+    left: 490px;
+    top: 50px;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-63977.jpg');
+    background-size: cover;
+    height: 550px;
+    width: 820px;
+    border: 6px solid white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}

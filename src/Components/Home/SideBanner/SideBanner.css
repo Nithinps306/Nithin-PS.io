@@ -1,0 +1,59 @@
+/* SideBanner.css */
+
+.banner {
+    background-color: rgb(41, 41, 43);
+    width: 200px;
+    height: 100%;
+    color: white;
+}
+
+.banner-header {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+
+.index {
+    position: fixed;
+    color: white;
+    padding-left: 25px;
+    padding-top: 60px;
+}
+
+.index-link {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.index-link:hover{
+    font-size: 27px;
+    color: aqua;
+}
+
+.media{
+    margin-top: 440px;
+    margin-left: 50px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.instagram:hover{
+    font-size: 25px;
+    color: rgb(238, 108, 130);
+}
+
+.linkedin:hover{
+    font-size: 25px;
+    color: rgb(9, 151, 207)
+}
+
+.facebook:hover{
+    font-size: 25px;
+    color: rgb(40, 40, 230)
+}
