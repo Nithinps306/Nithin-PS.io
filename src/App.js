@@ -5,7 +5,7 @@ import SubDetailsPage from './Pages/SubDetails';
 function App() {
   return (
     <div className="App">
-      <SubDetailsPage/>
+      {/* <SubDetailsPage/> */}
       <HomePage/>
     </div>
   );

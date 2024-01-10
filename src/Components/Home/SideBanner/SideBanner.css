@@ -3,6 +3,9 @@
     width: 14.5vw;
     height: 100%;
     color: white;
+    position: fixed;
+    left:0;
+    top: 0;
 }
 
 .banner-header {
@@ -15,7 +18,6 @@
 .index {
     color: white;
     padding-left: 2vw;
-    padding-right: 5vw;
     margin-right: 1vw;
     padding-top: 60px;
 }
@@ -29,12 +31,11 @@
 }
 
 .index-link:hover{
-    font-size: 1.9vw;
+    font-size: 1.7vw;
     color: aqua;
 }
 
 .media{
-    position: fixed;
     margin-top: 10vw;
     margin-left: 2.3vw;
     font-size: 1.8vw;
