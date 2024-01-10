@@ -1,6 +1,6 @@
 .banner {
     background-color: rgb(41, 41, 43);
-    width: 14.5vw;
+    width: 17vw;
     height: 100%;
     color: white;
     position: fixed;
@@ -22,7 +22,7 @@
 }
 
 .banner-header {
-    font-size: 2vw;
+    font-size: 2.7vw;
     padding-top: 25px;
     padding-left: 1vw;
     letter-spacing: 1px;
@@ -37,7 +37,7 @@
 
 .index-link {
     color: white;
-    font-size: 1.8vw;
+    font-size: 2vw;
     text-decoration: none;
     cursor: pointer;
     display: block;
