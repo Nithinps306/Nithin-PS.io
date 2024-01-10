@@ -8,6 +8,19 @@
     top: 0;
 }
 
+.react-logo{
+    display: flex;
+    height: 8vw;
+    margin-left: 2vw;
+    animation: logoRotation 5s linear infinite;
+}
+
+@media screen and (max-width: 100px) {
+    .react-logo {
+        margin: 150px;
+}
+}
+
 .banner-header {
     font-size: 2vw;
     padding-top: 25px;

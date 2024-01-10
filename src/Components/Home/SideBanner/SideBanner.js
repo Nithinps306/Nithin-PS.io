@@ -24,6 +24,8 @@ function SideBanner() {
 
   return (
     <div className='banner'>
+      <img className='react-logo' src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="" />
+
       <header className='banner-header'>Nithin P S</header>
       <div className='index'>
         <Link to='' className='index-link' onClick={() => handleLinks('Home')}>Home</Link><br/>
