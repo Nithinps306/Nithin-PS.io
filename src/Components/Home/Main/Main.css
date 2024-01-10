@@ -4,9 +4,22 @@
     background-image: url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-63977.jpg');
     background-size: cover;
     height: 85vh;
-    width: 60vw;
+    width: 50%;
     border: 6px solid white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
     display: flex;
     flex-wrap: nowrap;
+}
+@media screen and (max-width: 50%) {
+    .main {
+        width: 80%; /* Adjust for smaller screens */
+        height: 80vh; /* Adjust the height accordingly */
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .main {
+        width: 50%; /* Adjust for larger screens */
+        height: 85vh; /* Adjust the height accordingly */
+    }
 }
