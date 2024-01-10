@@ -9,11 +9,11 @@
 }
 
 .about-details{
-    font-size: 1.32vw;
+    font-size: 1.4vw;
     overflow:auto;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
 }
 .about-subdetails{
-    font-size: 1.32vw;
+    font-size: 1.4vw;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
