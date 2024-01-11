@@ -7,6 +7,10 @@
     color:whitesmoke
 }
 
+.name{
+    letter-spacing: 2px;
+}
+
 .subheader{
     font-size: 1.8vw;
 }
@@ -19,11 +23,11 @@
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .profilepic {
         margin: 10px;
     }
-}
+} */
 
 
 .con-info{

@@ -6,7 +6,7 @@ import {FaPhone,FaFacebookMessenger} from 'react-icons/fa';
 function HomeLink() {
   return (
     <div className='home'>
-        <header className='name'>MY NAME IS <br/>NITHIN P S...</header>
+        <header className='name'>MY NAME IS<br/>NITHIN P S</header>
         <h4 className='subheader'>Python Full-Stack Development</h4>
         <h4 className='subheader'>Bachelor of Computer Applications</h4>
         <img className='profilepic' src={profileimg} alt="" />
