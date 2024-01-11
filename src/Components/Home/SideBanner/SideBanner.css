@@ -15,6 +15,16 @@
     animation: logoRotation 5s linear infinite;
 }
 
+@keyframes logoRotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
 @media screen and (max-width: 100px) {
     .react-logo {
         margin: 150px;
@@ -54,7 +64,12 @@
     font-size: 1.8vw;
     cursor: pointer;
 }
-
+.linkedin{
+    margin-left: 1vw;
+}
+.facebook{
+    margin-left: 1vw;
+}
 .instagram:hover{
     font-size: 2vw;
     color: rgb(238, 108, 130);

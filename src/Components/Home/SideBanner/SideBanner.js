@@ -19,7 +19,7 @@ function SideBanner() {
   }
 
   const handleLinks=(link)=>{
-    setSelectedLink(link);
+    setSelectedLink(link); 
   }
 
   return (
@@ -34,9 +34,9 @@ function SideBanner() {
         <Link to='/contact' className='index-link' onClick={() => handleLinks('Contact')}>Contact</Link>
       </div>
       <div className='media'>
-        <FaInstagram className='instagram' onClick={handleInstagram}/>&nbsp;&nbsp;
-        <FaLinkedin className='linkedin' onClick={handleLinkedIn}/>&nbsp;&nbsp;
-        <FaFacebook className='facebook' onClick={handleFacebook}/>&nbsp;&nbsp;
+        <FaInstagram className='instagram' onClick={handleInstagram}/>
+        <FaLinkedin className='linkedin' onClick={handleLinkedIn}/>
+        <FaFacebook className='facebook' onClick={handleFacebook}/>
       </div>
     </div>
   )
